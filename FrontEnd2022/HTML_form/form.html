@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 연습</title>
+</head>
+<body>
+    <!--method는 get or post 두가지 밖에 없음-->
+    <form method="get" action="a.html">
+        <div>
+            <!--입력창-->
+            <label for="dtxt1">이름 입력</label>
+            <input type="text" id="dtxt1" name="txt1" placeholder="이름을 입력하세요.">
+            <label for="dtxt2">E-mail 입력</label>
+            <input type="email" id="dtxt2" name="txt1" placeholder="이름을 입력하세요.">
+            <!--버튼-->
+            <input type="submit" value="확인">
+        </div>
+        <div>
+            <label for="r1">남</label>
+            <input type="radio" id="r1" name="gender" value="남">
+            <label for="r2">여</label>
+            <input type="radio" id="r2" name="gender" value="여">
+        </div>        
+    </form>
+</body>
+</html>

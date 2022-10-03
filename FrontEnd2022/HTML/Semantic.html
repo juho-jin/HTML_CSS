@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 시멘틱 태그</title>
+    <style>
+        /*태그 선택지*/
+        ul {background-color: aqua;}
+        /*내부 스타일*/
+        * {margin: 0px;}
+        /*클래스 선택지*/
+        .idc {background-color: blue;}
+        /*아이디 선택지*/
+        #sid1 {background-color: brown;}
+        /*복합 선택지*/
+        header, footer {background-color: aquamarine; border-style: dashed;}
+        nav > ul {background-color: cadetblue; list-style:none;}
+        li[class] { color: red;}
+        section[id] {color: blueviolet;}
+        li > a {border-style: groove;}
+        
+
+    </style>
+</head>
+<body>
+    <!--Emmet (div.dvc$>ul>li.lid$*3)*6-->
+    <header>김경민</header>
+    <nav>
+        <ul>
+            <li><a href="#sid1">개인정보</a></li>
+            <li><a href="#sid2">학력사항</a></li>
+            <li><a href="#sid3">자격사항</a></li>
+            <li><a href="#sid4">사용가능언어</a></li>
+            <li><a href="#sid5">참고사이트</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--Emmet section#sid$*5>h1+ul>li.idc*2-->
+        <section id="sid1">
+            <h1>개인정보</h1>
+            <ul>
+                <li class="idc"></li>
+                <li class="idc"></li>
+            </ul>
+        </section>
+        <section id="sid2">
+            <h1>학력사항</h1>
+            <ul>
+                <li class="idc"></li>
+                <li class="idc"></li>
+            </ul>
+        </section>
+        <section id="sid3">
+            <h1>자격사항</h1>
+            <ul>
+                <li class="idc"></li>
+                <li class="idc"></li>
+            </ul>
+        </section>
+        <section id="sid4">
+            <h1>사용가능언어</h1>
+            <ul>
+                <li class="idc"></li>
+                <li class="idc"></li>
+            </ul>
+        </section>
+        <section id="sid5">
+            <h1>참고사이트</h1>
+            <ul>
+                <li class="idc"></li>
+                <li class="idc"></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/*레이아웃*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    /*메인과 헤더의 비율설정*/
+    height: 10vh;
+    /*헤더의 색상설정*/
+    background-color: #00d4ff;
+    color:#cde5ff;
+    /*header의 위치설정*/
+    display: flex;
+    justify-content: center;/*가로축*/
+    align-items: center;/*세로축*/
+    top: 0;
+    position: sticky;
+}
+
+
+
+main {
+    /*메인과 헤더의 비율설정*/
+    height: 90vh;
+    background-color: #cde5ff;
+    /*header의 위치설정*/
+    display: flex;
+    justify-content: center;/*가로축*/
+    align-items: center;/*세로축*/
+}
+
+button {
+    /*button의 위치설정*/
+    display: inline-block;
+    width: 100%;
+    /*button 사이의 폭 설정*/
+    margin : 1vh;
+    /*button 사이즈 설정*/
+    width: 50vw;
+    max-width: 200px;
+    height: 20vw;
+    max-height: 30px;
+    /*button 모양 설정*/
+    border:none;
+    border-radius: 8px;
+}
+
+button:hover {
+    
+}
